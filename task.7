@@ -1,0 +1,187 @@
+#TASK.6
+
+#list task
+students =["dhanush","kavin","jai","nishanth"]
+print(students)
+
+students.append("dhanush")
+print("after append :",students)
+
+students.insert(1,"gokul")
+print("after insert:",students)
+
+students .remove("jai")
+print("after remove:",students)
+
+print("length:",len(students))
+
+students.sort()
+print("sorted list:",students)
+
+students.reverse()
+print("reversed list:",students)
+
+numbers =[10,45,78,23,90]
+print("largest number:",max(numbers))
+
+nums=[1,2,3,2,4,2,5]
+print("count of 2:",nums.count(2))
+
+copy_students=students.copy()
+print("original list:",students)
+print("copied list:",copy_students)
+
+
+#tuple tasks
+tup =(10,20,30,40,50)
+print("/ntube:",tup)
+
+print("length of tuple:",len(tup))
+
+print("first element :",tup[0])
+print("last elements:",tup[-1])
+
+t=(1,2,3,2,4,2)
+print("count of 2:",t.count(2))
+
+print("index of 3:",t.index(3))
+
+t1=(1,2,3)
+t2=(4,5,6)
+print("convatenated tuple:",t1+t2)
+
+mixed_tuple =("dhanush",21,5.8,True)
+print("mixed tuple :",mixed_tuple)
+
+lst=[1,2,3,4]
+tuple_form_list=tuple(lst)
+print("list to tuple:",tuple_form_list)
+
+
+list_form_tuple=list(tup)
+print("tuple to list:",list_form_tuple)
+
+print("30 exist:",30 in tup)
+
+
+
+#set task
+
+s={10,20,30,40,50}
+print("/nset:",s)
+
+s.add(60)
+print("after add:",s)
+
+s.remove(20)
+print("after remove:",s)
+
+
+s.discard(30)
+print("after discard:",s)
+
+set1 ={1,2,3,4}
+set2={3,4,5,6}
+print("union:",set1.union(set2))
+
+print("intersection:")
+set1.intersection(set2)
+
+print("difference:",set1.difference(set2))
+
+A={1,2}
+B={1,2,3,4}
+print("A is subset of b:",A .issubset(B))
+
+print("B is superset of A:",B.issuperset(A))
+
+temp_set={1,2,3}
+temp_set.clear()
+print("after clear:",temp_set)
+
+
+
+#combined task
+
+data_list =[1,2,3,4,5]
+data_tuple =(1,2,3,4,5)
+data_set={14,2,3,4,5}
+print("list:",data_list)
+print("tuple:",data_tuple)
+print("set:",data_set)
+
+
+print("list to tuple:",tuple(data_list))
+print("list to set:",set(data_list))
+
+
+print("tuple to list:",list(data_tuple))
+
+
+setA={1,2,3,4}
+setB={3,4,5,6}
+print("common elements:",setA&setB)
+
+
+students_list=["dhanush","kavin","jai","nishanth"]
+students_tuple=("dhanush","kavin","jai","nishanth")
+students_set={"dhanush","kavin","jai","nishanth"}
+
+print("students list:",students_list)
+print("students tuple:",students_tuple)
+print("students set:",students_set)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
