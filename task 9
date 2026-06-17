@@ -1,0 +1,71 @@
+#LAMBDA TASK
+
+1) add=lambda a, b: a+b
+print(add(10,20))
+
+2) square =lambda x:x**2
+print(square(5))
+
+3) cube =lambda x:x**3
+print(cube(3))
+
+4) even_odd =lambda x:"even" if x % 2 ==0 else "odd"
+print(even_odd(7))
+
+5) largest =lambda a, b : a if a>b else b
+print(largest(15,20))
+
+#FILTER TASK
+
+nums =[1,2,3,4,5,10,12,15,-3,-8]
+
+1) print(list(filter(lambda x:x%2 ==0,nums)))
+
+2) print(list (filter (lambda x:x%2!=0,nums)))
+
+3) print(list(filter(lambda x:x>10,nums)))
+
+4) print(list(filter(lambda x:x>0,nums)))
+
+5) print(list(filter(lambda x:x%5==0,nums)))
+
+
+#MAP TASK
+
+nums =[1,2,3,4]
+
+1) print(list(map(lambda x:x**2,nums)))
+
+2) print(list(map(lambda x:x *2,nums)))
+
+3) print(list(map(lambda x:x +5,nums)))
+
+4) print(list(map(lambda x:x**3,nums)))
+
+5) print(list(map(str,nums)))
+
+
+#COMBINED MAP+FILTER TASK
+
+nums =[1,2,3,4,5,6,7,8,9,10]
+
+1) print(list(map(lambda x:x**2,nums)))
+
+2) print(list(map(lambda x:x*2,filter(lambda x:x%2!=0,nums))))
+
+3) print(list(map(lambda x:x**3,filter (lambda x:x>5,nums))))
+
+nums= [-5,-2,0,3,6,8]
+
+4) print(list(map(lambda x:x+10,filter(lambda x:x>0,nums))))
+
+5) print(list(map(lambda x:x*2,filter(lambda x:x%3 ==0,nums))))
+
+
+
+
+
+
+
+
+
