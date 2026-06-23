@@ -1,0 +1,179 @@
+# 1) math module task
+#task 1
+import math
+print("square root of 144 =",math.squrt(144))
+print("5 power 3 =",math.pow(5,3))
+print("factorial of 6 =",math.factorial(6))
+
+#task 2
+print("ceil of 5.2=",math .ceil(5.2))
+print("floor of 5.8 =",math.floor(5.8))
+print("cgd of 24 and 36 =",math.gcd(24,36))
+
+
+#task 3
+
+import math
+a=float(input("enter first number:"))
+b=float(input("enter second number:"))
+
+print("addition =",a+b)
+print("subraction =,a -b")
+print("multiplication =",a*b)
+print("division =",a/b)
+print("power =",math.pow(a,b))
+
+# 2) DATETIME MODULE TASKS
+#task.1
+
+from datetime import datetime
+
+now = datetime.now()
+
+#current date
+print("current date:",now.date())
+
+#current time
+print("current time:",now.time())
+
+#current year
+print("current year:",now.year)
+
+
+#task 2
+#find age
+
+from datetime import date
+
+birth_year =int(input("enter birth year:"))
+birth_month =int(input("enter birth month"))
+birth_day =int(input("enter birth day"))
+
+dob = date(birth_year ,birth_month,birth_day)
+today =date.today()
+
+age =today.year -dob.year
+if(today.month,today.day)<(dob.month,dob.day:)
+    age -=1
+    print("age =",age)
+
+#today date
+from datetime import datetime
+today = datetime.now()
+print(today.strftime("%d-%m-%y"))
+
+
+# 3)DATE MODULS TASKS
+
+#task 1
+
+from datetime import date
+birthday =date(2005,7,15)
+print("birthday:",birthday
+
+#task 2
+
+from datetime import date
+birthday = date(2005,7,15)
+today =date.today()
+
+difference =today -birthday
+print("days difference:"difference.days)
+
+
+#task 3
+
+from datetime import date
+birthday =date(2005,7,15)
+print("day:",birthday.day)
+print("month:",birthday.month)
+print("year:,birthday.year")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
